@@ -3,7 +3,7 @@ import Sidebar from "../sidebar/Sidebar";
 import Navbar from "../navbar/Navbar";
 import { Outlet } from "react-router-dom";
 
-export default function Home() {
+export default function Layout() {
   return (
     <>
       <Navbar />

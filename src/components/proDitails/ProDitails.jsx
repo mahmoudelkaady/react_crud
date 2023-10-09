@@ -14,7 +14,7 @@ export default function ProDitails() {
     getproDitails();
   }, []);
 
-  // to do ternary condition in js without (else) u can use &&
+  // to do ternary if  condition in js without (else) u can use &&
   return (
     <>
       {proditail && (
@@ -27,10 +27,9 @@ export default function ProDitails() {
             <h4> {proditail.category} </h4>
             <p> {proditail.description} </p>
             <button className="btn btn-primary">
-              {" "}
               price : <span className="text-warning">
                 {proditail.price}$
-              </span>{" "}
+              </span>
             </button>
           </div>
         </div>
